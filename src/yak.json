@@ -1,0 +1,62 @@
+{
+    "user": [
+        {
+            "id": "",
+            "firstName": "",
+            "lastName": "",
+            "email": "",
+            "photo": "",
+            "themeID": ""
+        }
+    ],
+    "friends": [
+        {
+            "id": "",
+            "userID1": "",
+            "userID2": ""
+        }
+    ],
+    "posts": [
+        {
+            "id": "",
+            "public": "true",
+            "postContent": "",
+            "postImage": "",
+            "postDate": "",
+            "userID": ""
+        }
+    ],
+    "events": [
+        {
+            "id": "",
+            "eventName": "",
+            "eventLocation": "",
+            "eventDate": "",
+            "startTime": "",
+            "endTime": "",
+            "userID": ""
+        }
+    ],
+    "ads": [
+        {
+            "id": "",
+            "adTitle": "",
+            "adContent": "",
+            "adCompanyy": "",
+            "userID": ""
+        }
+    ],
+    "blacklist": [
+        {
+            "id": "",
+            "adsID": "",
+            "userID": ""
+        }
+    ],
+    "themes": [
+        {
+            "id": "",
+            "themeName": ""
+        }
+    ]
+}
