@@ -1,20 +1,101 @@
 {
   "user": [
     {
-      "id": "1",
-      "firstName": "jake",
-      "lastName": "jake",
-      "email": "jake@gmail.com",
+      "id": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
       "photo": "",
-      "themeID": "1"
+      "location": "",
+      "themeID": ""
     },
     {
-      "id": "2",
-      "firstName": "google",
-      "lastName": "google",
-      "email": "google@gmail.com",
-      "photo": "",
-      "themeID": "1"
+      "firstName": "Dejan",
+      "lastName": "Stjepanovic",
+      "location": "nashville",
+      "emailAddress": "ds2q88@gmail.com",
+      "password": "blah",
+      "id": "v4Y~Icz"
+    },
+    {
+      "firstName": "dsds",
+      "lastName": "gffdtrd",
+      "location": "fggrdtr",
+      "emailAddress": "gfytfy",
+      "password": "tfdtrd",
+      "id": "EPDENIU"
+    },
+    {
+      "firstName": "Dejan",
+      "lastName": "Stjepanovic",
+      "location": "",
+      "emailAddress": "ds2q88@gmail.com",
+      "password": "",
+      "id": "iihCEfq"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "gfdsrzrz",
+      "password": "",
+      "id": "1DeF3as"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "",
+      "password": "",
+      "id": "bmQCJGd"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "",
+      "password": "",
+      "id": "OBg5slL"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "",
+      "password": "",
+      "id": "hEogJzc"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "",
+      "password": "",
+      "id": "NrgDzcQ"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "cgsgsghs",
+      "password": "",
+      "id": "Ii7oPlG"
+    },
+    {
+      "firstName": "Rif",
+      "lastName": "Raf",
+      "location": "dsfas",
+      "emailAddress": "RIFRAF@BLOOP>COM",
+      "password": "sdfsjn",
+      "id": "l33qrv_"
+    },
+    {
+      "firstName": "sdfsbhdf",
+      "lastName": "sdfvsafd",
+      "location": "sdcfsdf",
+      "emailAddress": "sdfvsd",
+      "password": "sdcfsdf",
+      "id": "rmX6sYe"
     }
   ],
   "friends": [
@@ -27,54 +108,11 @@
   "posts": [
     {
       "id": "",
-      "public": "true",
+      "public": true,
       "postContent": "",
       "postImage": "",
       "postDate": "",
       "userID": ""
-    },
-    {
-      "id": 6,
-      "public": true,
-      "postContent": "TEST",
-      "postImage": "TEST",
-      "postDate": "14:8 6/1/2018",
-      "userID": "2"
-    },
-    {
-      "id": 9,
-      "public": true,
-      "postContent": "Hey",
-      "postImage": "Hey",
-      "postDate": "14:8 6/1/2018"
-    },
-    {
-      "id": 13,
-      "public": true,
-      "postContent": "Lol",
-      "postImage": "Lol",
-      "postDate": "14:8 6/1/2018"
-    },
-    {
-      "id": 37,
-      "public": true,
-      "postContent": "what the",
-      "postImage": "what the",
-      "postDate": "14:9 6/1/2018"
-    },
-    {
-      "id": 61,
-      "public": true,
-      "postContent": "aklsdfnasdf",
-      "postImage": "aklsdfnasdf",
-      "postDate": "14:10 6/1/2018"
-    },
-    {
-      "id": 49,
-      "public": true,
-      "postContent": "TEST 76",
-      "postImage": "TEST 76",
-      "postDate": "14:11 6/1/2018"
     }
   ],
   "events": [
