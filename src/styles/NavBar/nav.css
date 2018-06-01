@@ -1,0 +1,61 @@
+.mainNavigation {
+    background-color: #FF5470;
+    border: 8px solid yellow ;
+    border-radius: 1em;
+    box-shadow: 0 0 1px yellow, 0 0 2px yellow, 0 0 6px yellow, 0 0 12px yellow, inset 0 0 1px yellow, inset 0 0 2px yellow, inset 0 0 6px yellow, inset 0 0 12px yellow;
+    color: tomato;
+    width: 108%;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin-left: 20px;
+    box-sizing: border-box;
+    animation: flux 2s linear infinite;
+    -moz-animation: flux 2s linear infinite;
+    -webkit-animation: flux 2s linear infinite;
+    -o-animation: flux 2s linear infinite;
+}
+
+.mainNavigation > a:link, a:visited {
+    margin: 0 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: 2px solid lightblue;
+    display: inline-block;
+    animation: flux 2s linear infinite;
+    -moz-animation: flux 2s linear infinite;
+    -webkit-animation: flux 2s linear infinite;
+    -o-animation: flux 2s linear infinite;
+}
+
+a:link, a:visited {
+    display: flex; 
+    padding: 15px 30px;
+    /* width: 10%; */
+    /* background-color: lightsalmon; */
+    color: #6F2DA8;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  a:hover, a:active {
+    background-color: yellowgreen;
+    color: darkmagenta;
+    font-weight: bolder;
+  }
+
+  @keyframes flux {
+    0%,
+    100% {
+      box-shadow: 0 0 1vw yelyellowgreenlow, 0 0 3vw yellowgreen, 0 0 10vw yellowgreen, 0 0 10vw yellowgreen, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+      color: #28D7FE;
+    }
+    50% {
+      box-shadow: 0 0 .5vw yellowgreen, 0 0 1.5vw yellowgreen, 0 0 5vw yellowgreen, 0 0 5vw yellowgreen, 0 0 .2vw yellowgreen, .5vw .5vw .1vw #0A3940;
+      color: #146C80;
+    }
+}
