@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './scripts/NavBar/nav';
+<<<<<<< HEAD
 import Post from './scripts/PostFeed/post'
+=======
+import Template from "./scripts/Template/template"
+>>>>>>> a2b64afa9381c8840a1112582599faa299f8547e
 
 class App extends Component {
   render() {
@@ -15,7 +19,13 @@ class App extends Component {
           <NavBar />
           </div>
         </header>
+<<<<<<< HEAD
           <Post/>
+=======
+        <div>
+            <Template />
+        </div>
+>>>>>>> a2b64afa9381c8840a1112582599faa299f8547e
       </div>
     );
   }
