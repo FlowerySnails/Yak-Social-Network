@@ -1,63 +1,151 @@
 {
-    "user": [
-        {
-            "id": "",
-            "firstName": "",
-            "lastName": "",
-            "email": "",
-            "photo": "",
-            "location": "",
-            "themeID": ""
-        }
-    ],
-    "friends": [
-        {
-            "id": "",
-            "userID1": "",
-            "userID2": ""
-        }
-    ],
-    "posts": [
-        {
-            "id": "",
-            "public": true,
-            "postContent": "",
-            "postImage": "",
-            "postDate": "",
-            "userID": ""
-        }
-    ],
-    "events": [
-        {
-            "id": "",
-            "eventName": "",
-            "eventLocation": "",
-            "eventDate": "",
-            "startTime": "",
-            "endTime": "",
-            "userID": ""
-        }
-    ],
-    "ads": [
-        {
-            "id": "",
-            "adTitle": "",
-            "adContent": "",
-            "adCompanyy": "",
-            "userID": ""
-        }
-    ],
-    "blacklist": [
-        {
-            "id": "",
-            "adsID": "",
-            "userID": ""
-        }
-    ],
-    "themes": [
-        {
-            "id": "",
-            "themeName": ""
-        }
-    ]
+  "user": [
+    {
+      "id": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "photo": "",
+      "location": "",
+      "themeID": ""
+    },
+    {
+      "firstName": "Dejan",
+      "lastName": "Stjepanovic",
+      "location": "nashville",
+      "emailAddress": "ds2q88@gmail.com",
+      "password": "blah",
+      "id": "v4Y~Icz"
+    },
+    {
+      "firstName": "dsds",
+      "lastName": "gffdtrd",
+      "location": "fggrdtr",
+      "emailAddress": "gfytfy",
+      "password": "tfdtrd",
+      "id": "EPDENIU"
+    },
+    {
+      "firstName": "Dejan",
+      "lastName": "Stjepanovic",
+      "location": "",
+      "emailAddress": "ds2q88@gmail.com",
+      "password": "",
+      "id": "iihCEfq"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "gfdsrzrz",
+      "password": "",
+      "id": "1DeF3as"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "",
+      "password": "",
+      "id": "bmQCJGd"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "",
+      "password": "",
+      "id": "OBg5slL"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "",
+      "password": "",
+      "id": "hEogJzc"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "",
+      "password": "",
+      "id": "NrgDzcQ"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "location": "",
+      "emailAddress": "cgsgsghs",
+      "password": "",
+      "id": "Ii7oPlG"
+    },
+    {
+      "firstName": "Rif",
+      "lastName": "Raf",
+      "location": "dsfas",
+      "emailAddress": "RIFRAF@BLOOP>COM",
+      "password": "sdfsjn",
+      "id": "l33qrv_"
+    },
+    {
+      "firstName": "sdfsbhdf",
+      "lastName": "sdfvsafd",
+      "location": "sdcfsdf",
+      "emailAddress": "sdfvsd",
+      "password": "sdcfsdf",
+      "id": "rmX6sYe"
+    }
+  ],
+  "friends": [
+    {
+      "id": "",
+      "userID1": "",
+      "userID2": ""
+    }
+  ],
+  "posts": [
+    {
+      "id": "",
+      "public": true,
+      "postContent": "",
+      "postImage": "",
+      "postDate": "",
+      "userID": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "",
+      "eventName": "",
+      "eventLocation": "",
+      "eventDate": "",
+      "startTime": "",
+      "endTime": "",
+      "userID": ""
+    }
+  ],
+  "ads": [
+    {
+      "id": "",
+      "adTitle": "",
+      "adContent": "",
+      "adCompanyy": "",
+      "userID": ""
+    }
+  ],
+  "blacklist": [
+    {
+      "id": "",
+      "adsID": "",
+      "userID": ""
+    }
+  ],
+  "themes": [
+    {
+      "id": "",
+      "themeName": ""
+    }
+  ]
 }
