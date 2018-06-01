@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './scripts/NavBar/nav';
+import Template from "./scripts/Template/template"
 
 class App extends Component {
   render() {
@@ -14,6 +15,9 @@ class App extends Component {
           <NavBar />
           </div>
         </header>
+        <div>
+            <Template />
+        </div>
       </div>
     );
   }
