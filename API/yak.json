@@ -32,6 +32,49 @@
       "postImage": "",
       "postDate": "",
       "userID": ""
+    },
+    {
+      "id": 6,
+      "public": true,
+      "postContent": "TEST",
+      "postImage": "TEST",
+      "postDate": "14:8 6/1/2018",
+      "userID": "2"
+    },
+    {
+      "id": 9,
+      "public": true,
+      "postContent": "Hey",
+      "postImage": "Hey",
+      "postDate": "14:8 6/1/2018"
+    },
+    {
+      "id": 13,
+      "public": true,
+      "postContent": "Lol",
+      "postImage": "Lol",
+      "postDate": "14:8 6/1/2018"
+    },
+    {
+      "id": 37,
+      "public": true,
+      "postContent": "what the",
+      "postImage": "what the",
+      "postDate": "14:9 6/1/2018"
+    },
+    {
+      "id": 61,
+      "public": true,
+      "postContent": "aklsdfnasdf",
+      "postImage": "aklsdfnasdf",
+      "postDate": "14:10 6/1/2018"
+    },
+    {
+      "id": 49,
+      "public": true,
+      "postContent": "TEST 76",
+      "postImage": "TEST 76",
+      "postDate": "14:11 6/1/2018"
     }
   ],
   "events": [

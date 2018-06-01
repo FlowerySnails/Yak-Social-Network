@@ -11,8 +11,6 @@ function getDate (currentDate){
     return  (hour + ":" + minute + " " + mm + "/" + dd + "/" + yyyy)
 }
 
-
-
 class Post extends Component {
 
     constructor (props){
@@ -26,7 +24,9 @@ class Post extends Component {
     handleChange(event) {
         this.setState({value: event.target.value});
       }
+
     handleSubmit(event) {
+
         const newPostData = {
             id: this.uniqueKey++,
             public: true,
@@ -69,13 +69,14 @@ class Post extends Component {
             <form onSubmit={this.handleSubmit}>
                 <label>
                     <input type="text" value={this.state.value} onChange={this.handleChange} placeholder="What's on your mind?"/>
+                    <input type="checkbox" name="privatepost" value=""/>Private Post
                 </label>
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Post" />
 
             </form>
             <h3>News Feed</h3>
                 {this.state.feed.map(post =>(
-                    <Feed name= {post.user.first}
+                    <Feed name= {post.user.id}
                           postContent={post.postContent}
                           postDate={post.postDate}
                           key={this.uniqueKey++}/>
