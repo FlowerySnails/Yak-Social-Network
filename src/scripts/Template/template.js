@@ -4,40 +4,40 @@ import 'bulma/css/bulma.css'
 export default class Template extends Component {
     render() {
         return(
-            <div class="tile is-ancestor box">
-            <div class="tile is-vertical is-10">
-              <div class="tile">
-                <div class="tile is-parent is-vertical box">
-                  <section id="tasks--tile" class="tile is-child notification is-danger">
-                    <p class="title">Calendar</p>
-                    <p class="subtitle">Current Event</p>
+            <div className="tile is-ancestor box">
+            <div className="tile is-vertical is-10">
+              <div className="tile">
+                <div className="tile is-parent is-vertical box">
+                  <section id="tasks--tile" className="tile is-child notification is-danger">
+                    <p className="title">Calendar</p>
+                    <p className="subtitle">Current Event</p>
                   </section>
-                  <section id="friends--tile" class="tile is-child notification is-danger box">
-                    <p class="title">Friends</p>
-                    <p class="subtitle"></p>
+                  <section id="friends--tile" className="tile is-child notification is-danger box">
+                    <p className="title">Friends</p>
+                    <p className="subtitle"></p>
                   </section>
                 </div>
-                <div class="tile is-parent box">
-                  <section id="events--tile" class="tile is-child notification is-danger">
-                    <p class="title">Events</p>
-                    <p class="subtitle">Current Event</p>
+                <div className="tile is-parent box">
+                  <section id="events--tile" className="tile is-child notification is-danger">
+                    <p className="title">Post</p>
+                    <p className="subtitle">Current Post</p>
                   </section>
                 </div>
               </div>
-              <div class="tile is-parent box">
-                <section class="tile is-child notification is-danger">
-                 <p class="title">Post Feed</p>
-                  <div  id="articles--tile" class="content">
+              <div className="tile is-parent box">
+                <section className="tile is-child notification is-danger">
+                 <p className="title">Events</p>
+                  <div  id="articles--tile" className="content">
                   </div>
                 </section>
               </div>
             </div>
-            <div class="tile is-parent box">
-              <section id="chat--tile" class="tile is-child notification is-danger">
-                <div class="content">
-                  <p class="title">ADS</p>
-                  <p class="subtitle">With even more content</p>
-                  <div class="content">
+            <div className="tile is-parent box">
+              <section id="chat--tile" className="tile is-child notification is-danger">
+                <div className="content">
+                  <p className="title">ADS</p>
+                  <p className="subtitle">With even more content</p>
+                  <div className="content">
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
                     content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum
