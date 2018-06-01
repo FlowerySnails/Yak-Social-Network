@@ -5,6 +5,7 @@ import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 import App from './App';
 import NavBar from './scripts/NavBar/nav';
+import RegistrationForm from './scripts/Registration/registration'
 
 ReactDOM.render(
     <Router>
@@ -14,6 +15,7 @@ ReactDOM.render(
             {/* <Route exact path="/" component={} />
             <Route exact path="/People" component={} />
             <Route exact path="/ProjectList" component={} /> */}
+            <RegistrationForm/>
         </div>
     </Router>,
     document.getElementById('root'));
