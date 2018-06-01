@@ -1,62 +1,70 @@
 {
-    "user": [
-        {
-            "id": "",
-            "firstName": "",
-            "lastName": "",
-            "email": "",
-            "photo": "",
-            "themeID": ""
-        }
-    ],
-    "friends": [
-        {
-            "id": "",
-            "userID1": "",
-            "userID2": ""
-        }
-    ],
-    "posts": [
-        {
-            "id": "",
-            "public": "true",
-            "postContent": "",
-            "postImage": "",
-            "postDate": "",
-            "userID": ""
-        }
-    ],
-    "events": [
-        {
-            "id": "",
-            "eventName": "",
-            "eventLocation": "",
-            "eventDate": "",
-            "startTime": "",
-            "endTime": "",
-            "userID": ""
-        }
-    ],
-    "ads": [
-        {
-            "id": "",
-            "adTitle": "",
-            "adContent": "",
-            "adCompanyy": "",
-            "userID": ""
-        }
-    ],
-    "blacklist": [
-        {
-            "id": "",
-            "adsID": "",
-            "userID": ""
-        }
-    ],
-    "themes": [
-        {
-            "id": "",
-            "themeName": ""
-        }
-    ]
+  "user": [
+    {
+      "id": "1",
+      "firstName": "jake",
+      "lastName": "jake",
+      "email": "jake@gmail.com",
+      "photo": "",
+      "themeID": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "google",
+      "lastName": "google",
+      "email": "google@gmail.com",
+      "photo": "",
+      "themeID": "1"
+    }
+  ],
+  "friends": [
+    {
+      "id": "",
+      "userID1": "",
+      "userID2": ""
+    }
+  ],
+  "posts": [
+    {
+      "id": "",
+      "public": "true",
+      "postContent": "",
+      "postImage": "",
+      "postDate": "",
+      "userID": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "",
+      "eventName": "",
+      "eventLocation": "",
+      "eventDate": "",
+      "startTime": "",
+      "endTime": "",
+      "userID": ""
+    }
+  ],
+  "ads": [
+    {
+      "id": "",
+      "adTitle": "",
+      "adContent": "",
+      "adCompanyy": "",
+      "userID": ""
+    }
+  ],
+  "blacklist": [
+    {
+      "id": "",
+      "adsID": "",
+      "userID": ""
+    }
+  ],
+  "themes": [
+    {
+      "id": "",
+      "themeName": ""
+    }
+  ]
 }
