@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import 'bulma/css/bulma.css'
+import Post from '../PostFeed/post'
 
 export default class Template extends Component {
     render() {
@@ -21,6 +22,7 @@ export default class Template extends Component {
                   <section id="events--tile" className="tile is-child notification is-danger">
                     <p className="title">Post</p>
                     <p className="subtitle">Current Post</p>
+                    <Post/>
                   </section>
                 </div>
               </div>
